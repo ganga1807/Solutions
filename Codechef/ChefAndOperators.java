@@ -7,10 +7,10 @@ class ChefAndOperators
 {
     public static void main (String[] args) throws java.lang.Exception
     {
-        int t;
+        int test;
         Scanner scan=new Scanner(System.in);
-        t=scan.nextInt();
-        while(t>0){
+        test=scan.nextInt();
+        while(test>0){
             int a,b;
             scan.nextLine();
             a=scan.nextInt();
@@ -22,7 +22,7 @@ class ChefAndOperators
                System.out.println("<"); 
             }
             else System.out.println("=");
-            t--;
+            test--;
         }
             scan.close();
         
